@@ -1,22 +1,32 @@
 # Revenue & Sales Performance Analytics Dashboard
 
-## Overview
-This project focuses on analyzing sales performance using Power BI. The dashboard provides insights into revenue, profit, and profitability across product categories and regions, as well as the impact of discounting on profits. It also includes a time-based analysis to understand revenue trends over months.
+## 📌 Problem Statement
+Many companies struggle to monitor and analyze their sales performance across products and regions. They often miss insights on which categories or regions are most profitable and how discount strategies impact overall profitability. This can lead to lost revenue and inefficient business decisions.
 
-## Tools Used
-- Power BI Desktop
-- DAX (for calculated measures)
-- Excel (for sample dataset, if applicable)
+## 📊 Dataset
+- **Rows:** 500–1000 (sample dataset, can vary)  
+- **Columns:** Order Date, Product Category, Product Name, Region, Revenue, Profit, Discount  
+- **Source:** Simulated sales dataset for Power BI analytics practice  
 
-## Key Features
-- Total Revenue, Total Profit, and Average Profit Margin KPIs
-- Category-wise and Region-wise Revenue & Profit Analysis
-- Discount vs Profit Scatter Chart
-- Revenue Trend Over Time
-- Professional insights added in text boxes
+## 🛠 Tools Used
+- Power BI Desktop  
+- DAX (for calculated measures)  
+- Excel (for initial dataset preparation, optional)  
 
-## Screenshots
+## 📈 Key Analysis Performed
+- Total Revenue, Total Profit, and Average Profit Margin KPIs  
+- Revenue and Profit by Product Category  
+- Revenue by Region  
+- Discount vs Profit analysis using scatter chart  
+- Revenue Trend Over Time (Feb → Mar)  
 
+## 🔍 Insights Generated
+- **Electronics** is the top-performing category in revenue and profit  
+- Higher discounts often **reduce profitability**, visible in the scatter chart  
+- Revenue decreased from **February (₹XX,XXX) to March (₹XX,XXX)**  
+- Average Profit Margin is **calculated using DAX measures** for accurate aggregation  
+
+## 📷 Screenshots
 ### Dashboard Overview
 ![Dashboard Overview](dashboard_overview.png)
 
@@ -26,12 +36,8 @@ This project focuses on analyzing sales performance using Power BI. The dashboar
 ### Profit Margin & Revenue Trend
 ![Profit Margin & Trend](profit_margin_and_trend.png)
 
-## Key Insights
-- Electronics is the top-performing category in terms of revenue and profitability.
-- Higher discounts often reduce profitability, visible in the scatter chart.
-- Revenue declined from February to March, based on the available dataset (limited time period).
-- Average Profit Margin was calculated using a DAX measure to ensure correct aggregation.
-
-## Notes
-- All measures and calculations are built using Power BI Desktop.
-- The dashboard is suitable for business decision-making and provides executive-level insights.
+## 🚀 Business Impact
+- Enables **management to focus on high-performing categories and regions**  
+- Helps **optimize discount strategies** to prevent profit loss  
+- Provides a **clear monthly revenue trend** for better forecasting and decision-making  
+- Supports **data-driven decisions** for improving overall sales performance
